@@ -1,22 +1,29 @@
-body{
+body {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    
 }
-.container{
-    background-color: #f8f8d2;
+
+.container {
+    background-color: #dadce7;
     padding: 2em;
     height: 550px;
-  
-    
 }
- h1{
+
+h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
- }
- .submit{
-     margin-left: 320px;
-   
- }
+}
+
+.submit {
+    margin-left: 80%;
+}
+
+.button {
+    background-color: blue;
+}
+
+.active,
+.button:hover {
+    background-color: rgb(25, 3, 77);
+}
